@@ -71,4 +71,24 @@ main iframe {
     color: #0096ff;
 }
 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
 
+td, th {
+    border: 1px solid #3f3ca9;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #0ce6e6;
+}
+
+tr:nth-child(odd) {
+    background-color: #38c21a;
+}
+
+th {
+    background-color: #ff00bf;
+}
